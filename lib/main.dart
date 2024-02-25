@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lessons/lesson-01/flutter_basic_widgets.dart';
+import 'package:flutter_lessons/lesson-02/lesson_02.dart';
 import 'package:flutter_lessons/login_screen.dart';
 import 'package:flutter_lessons/main_screen.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const FlutterBasicWidgets(),
+      home: const Lesson02(),
     );
   }
 }
